@@ -21,10 +21,10 @@
 */
 
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
+import Programmes from "layouts/Programmes";
 import Billing from "layouts/billing";
-import VirtualReality from "layouts/virtual-reality";
-import RTL from "layouts/rtl";
+import Student from "layouts/Student";
+import Tokens from "layouts/Tokens";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
@@ -52,10 +52,10 @@ const routes = [
   {
     type: "collapse",
     name: "Programmes",
-    key: "tables",
-    route: "/tables",
+    key: "Programmes",
+    route: "/Programmes",
     icon: <Office size="12px" />,
-    component: <Tables />,
+    component: <Programmes />,
     noCollapse: true,
   },
   {
@@ -70,19 +70,19 @@ const routes = [
   {
     type: "collapse",
     name: "Student",
-    key: "virtual-reality",
-    route: "/virtual-reality",
+    key: "Student",
+    route: "/Student",
     icon: <Cube size="12px" />,
-    component: <VirtualReality />,
+    component: <Student />,
     noCollapse: true,
   },
   {
     type: "collapse",
     name: "Tokens",
-    key: "rtl",
-    route: "/rtl",
+    key: "Tokens",
+    route: "/Tokens",
     icon: <Settings size="12px" />,
-    component: <RTL />,
+    component: <Tokens />,
     noCollapse: true,
   },
   { type: "title", title: "Account Pages", key: "account-pages" },

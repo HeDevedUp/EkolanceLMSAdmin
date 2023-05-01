@@ -12,10 +12,10 @@ import Footer from "examples/Footer";
 import Table from "examples/Tables/Table";
 
 // Data
-import authorsTableData from "layouts/tables/data/authorsTableData";
-import projectsTableData from "layouts/tables/data/projectsTableData";
+import authorsTableData from "layouts/Programmes/data/authorsTableData";
+import projectsTableData from "layouts/Programmes/data/projectsTableData";
 
-function Tables() {
+function Programmes() {
   const { columns, rows } = authorsTableData;
   const { columns: prCols, rows: prRows } = projectsTableData;
 
@@ -26,7 +26,7 @@ function Tables() {
         <SoftBox mb={3}>
           <Card>
             <SoftBox display="flex" justifyContent="space-between" alignItems="center" p={3}>
-              <SoftTypography variant="h6">Authors table</SoftTypography>
+              <SoftTypography variant="h6">Programmes table</SoftTypography>
             </SoftBox>
             <SoftBox
               sx={{
@@ -65,4 +65,4 @@ function Tables() {
   );
 }
 
-export default Tables;
+export default Programmes;
