@@ -1,10 +1,10 @@
 // @mui material components
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 
 // Soft UI Dashboard React components
 import SoftBox from "components/SoftBox";
-import SoftTypography from "components/SoftTypography";
+// import SoftTypography from "components/SoftTypography";
 
 // Soft UI Dashboard React examples
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
@@ -15,7 +15,7 @@ import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCar
 // import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
 
 // Soft UI Dashboard React base styles
-import typography from "assets/theme/base/typography";
+// import typography from "assets/theme/base/typography";
 
 // Dashboard layout components
 import BuildByDevelopers from "layouts/dashboard/components/BuildByDevelopers";
@@ -33,7 +33,7 @@ import Tokens from "./components/Tokens";
 // import gradientLineChartData from "layouts/dashboard/data/gradientLineChartData";
 
 function Dashboard() {
-  const { size } = typography;
+  // const { size } = typography;
   // const { chart, items } = reportsBarChartData;
 
   return (
